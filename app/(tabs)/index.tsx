@@ -134,13 +134,15 @@ export default function TabTwoScreen() {
     );
   };
 
-  const handleSaveSignature = async (signature: string) => {
+  const handleSaveSignature = async (signature: string, img1: string, img2: string, observacion: string) => {
     try {
       if (!currentServiceId) return;
 
       const signatureData = {
         firma: signature,
-        observacion: null
+        img1: img1,
+        img2: img2,
+        observacion: observacion
       };
 
       const response = await ServiceManager.signService(currentServiceId, signatureData);

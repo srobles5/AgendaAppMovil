@@ -1,23 +1,23 @@
 {
   "expo": {
-    "name": "SingApp",
-    "slug": "SingApp",
+    "name": "MultitanquesSAS",
+    "slug": "MultitanquesSAS",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./assets/images/icon.jpg",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "fabianbeltran.SingApp"
+      "bundleIdentifier": "smartlytic.MultitanquesSAS"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "fabianbeltran.SingApp"
+      "package": "smartlytic.MultitanquesSAS"
     },
     "web": {
       "bundler": "metro",
@@ -44,7 +44,7 @@
         "origin": false
       },
       "eas": {
-        "projectId": "f4ebd076-f21f-460e-a75a-cfef594b0459"
+        "projectId": "d3811af6-5e1f-45f5-8135-abd3f63cac0f"
       }
     }
   }

@@ -28,6 +28,8 @@ export interface StateChangeResponse {
 
 export interface SignatureRequest {
   firma: string;
+  img1: string;
+  img2: string;
   observacion: string | null;
 }
 
