@@ -45,7 +45,7 @@ export const SignatureModal = ({ visible, onClose, onSave }: SignatureModalProps
     } else {
         const result =
             await ImagePicker.launchImageLibraryAsync({
-            quality: 0.8,
+            quality: 0.9,
           });
         console.log(result);
 
@@ -54,7 +54,7 @@ export const SignatureModal = ({ visible, onClose, onSave }: SignatureModalProps
             
           const manipResult = await ImageManipulator.manipulateAsync(
             result["assets"][0]["uri"],
-            [{resize: { height: 200, width: 200 }}],
+            [{resize: { height: 250, width: 250 }}],
             { compress: 1, format: ImageManipulator.SaveFormat.PNG, base64: true }
           );
           console.log(manipResult);
